@@ -1,3 +1,4 @@
+# COPY repository of CO-SNE
 # CO-SNE
 code for CO-SNE: Dimensionality Reduction and Visualization for Hyperbolic Data (CVPR 2022)
 
@@ -10,7 +11,7 @@ code for CO-SNE: Dimensionality Reduction and Visualization for Hyperbolic Data 
 * seaborn==0.9.0
 * torch==1.3.1
 * torchvision==0.4.2
-* geoopt: git+https://github.com/geoopt/geoopt.git@010f5bdf1d6cf217fb47a767e2d93e39369e4cb2#egg=geoopt
+* geoopt==0.5.0 (have to modify import part of pvae/manifolds/poincareball.py to updated version)
 
 Please use pip to install all the packages.
 
